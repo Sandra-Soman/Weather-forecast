@@ -31,6 +31,7 @@
 <script>
     function search(){
        dist=searchdist.value
+       
        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${dist}&appid=5b4bee0ba241d092159faf007e166080`)
        .then(res=>res.json())
        .then(data=>displaydata(data))
@@ -57,12 +58,6 @@
 
 result.innerHTML=htmldata
 
-// cityname.value = `${cname}`
-// temp.innerHTML = temperature
-// weather.innerHTML = weather
-// wind.innerHTML = wind
-// latt.innerHTML = lattitude
-// long.innerHTML = longitude
     }
 
 </script>
