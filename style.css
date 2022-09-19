@@ -12,7 +12,10 @@ html{
     background-size:cover;
 
 }
-
+h1{
+    font-family: 'Roboto Mono', monospace;
+  color: white;
+}
 /* body{
     /* width: 55%; */
     /* height: 70vh;
